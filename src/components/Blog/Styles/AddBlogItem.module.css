@@ -1,0 +1,81 @@
+.error {
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin: -8px 0 10px 0;
+}
+
+.addPost {
+	-moz-box-shadow: 0px 0px 10px 0.5px rgba(19, 66, 19, 1);
+	-webkit-box-shadow: 0px 0px 10px 0.5px rgb(19 66 19);
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #134213;
+	box-shadow: 0px 0px 10px 0.5px rgb(19 66 19);
+	margin: 0 auto;
+	max-width: 350px;
+	padding: 30px 30px;
+	width: 100%;
+}
+
+.addPostContent {
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.h2 {
+	color: #134213;
+	margin-top: 0;
+}
+
+.input,
+.textarea {
+	border-radius: 25px;
+	border: 2px solid #13421399;
+	display: block;
+	height: 35px;
+	letter-spacing: 1px;
+	margin: 5px 0 15px 0;
+	padding-left: 15px;
+	width: 300px;
+}
+
+.textarea {
+	height: 120px;
+	padding-top: 10px;
+	resize: none;
+}
+
+.submit {
+	background: #134213;
+	border-radius: 25px;
+	border: 2px solid #134213;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 8px 25px;
+	transition: 0.2s;
+}
+
+.submit:hover {
+	background: #fff;
+	color: #134213;
+}
+
+/*  responsiveness */
+
+@media (max-width: 767px) {
+	.addPost {
+		max-width: 250px;
+	}
+
+	.input,
+	.textarea {
+		width: 200px;
+	}
+}

@@ -1,0 +1,125 @@
+.overlay {
+	background-color: #000;
+	height: 100%;
+	margin: 0px;
+	min-height: 200px;
+	opacity: 0.5;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 300;
+}
+
+.modal {
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 10px;
+	border: 3px solid #134213;
+	box-shadow: 0px 0px 15px 1px rgba(19, 66, 19, 1);
+	height: auto;
+	left: 50%;
+	padding: 20px;
+	position: fixed;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: auto;
+	z-index: 400;
+}
+
+.modalContent {
+	position: relative;
+}
+
+.productInfo {
+	margin: 15px 0 20px 0;
+}
+
+.productInfo p {
+	margin: 0;
+}
+
+.bold {
+	color: #134213;
+	font-weight: bold;
+}
+
+.close {
+	background: #134213;
+	border-radius: 25px;
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px 6px 4px 6px;
+}
+
+.close:before {
+	content: '×';
+}
+
+.error {
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin: -8px 0 10px 20px;
+}
+
+.sent {
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin: 10px 0 0 15px;
+}
+
+.input {
+	border-radius: 25px;
+	border: 2px solid #13421399;
+	color: grey;
+	display: block;
+	height: 35px;
+	letter-spacing: 1px;
+	margin: 5px 0 15px 0;
+	padding-left: 15px;
+	width: 300px;
+}
+
+.textarea {
+	border-radius: 25px;
+	border: 2px solid #13421399;
+	color: grey;
+	display: block;
+	height: 80px;
+	letter-spacing: 1px;
+	margin: 5px 0 15px 0;
+	padding: 10px 0 0 15px;
+	resize: none;
+	width: 300px;
+}
+
+.submit {
+	background: #134213;
+	border-radius: 25px;
+	border: 2px solid #134213;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 8px 25px;
+	transition: 0.2s;
+}
+
+.submit:hover {
+	background: #fff;
+	color: #134213;
+}
+
+/*  responsiveness */
+@media (max-width: 767px) {
+	.modal {
+		padding: 15px;
+	}
+}

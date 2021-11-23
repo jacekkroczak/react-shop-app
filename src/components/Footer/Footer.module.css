@@ -1,0 +1,128 @@
+.footer {
+	background: #262626;
+	box-shadow: 0px -2px 3px #134213, 0px -2px 3px #134213;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+
+.col3 {
+	flex: 0 0 30%;
+	padding: 0 15px;
+}
+
+.paragraph,
+.href {
+	color: #fff;
+	font-size: 14px;
+}
+
+.href {
+	display: block;
+	line-height: 35px;
+	text-decoration: none;
+	transition: 0.2s;
+	width: fit-content;
+}
+
+.href:hover {
+	font-weight: bold;
+}
+
+.paragraph {
+	line-height: 23px;
+	padding-right: 20px;
+}
+
+.h4 {
+	border-left: 3px solid;
+	color: #fff;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.navigation {
+	padding-left: 15px;
+}
+
+.navigationMore {
+	line-height: 35px;
+	list-style: none;
+	padding-left: 0;
+}
+
+.linkMoreInformation {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	transition: 0.1s;
+}
+
+.linkMoreInformation:hover {
+	font-weight: bold;
+}
+
+.itemNavigation {
+	color: #fff;
+}
+
+.logoFooter {
+	max-width: 100px;
+}
+
+.imgFooter {
+	max-width: 130px;
+}
+
+.icon {
+	font-size: 17px;
+	padding-right: 10px;
+}
+
+.copyright {
+	background: #000000de;
+	padding: 10px 0;
+}
+
+.paragraphCopy {
+	color: #fff;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: 0;
+	text-align: center;
+}
+
+.blockquote {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+	margin: 8px 8px 8px -5px;
+	padding: 5px 40px 0 40px;
+	position: relative;
+}
+
+.blockquote:before {
+	content: '\201C';
+	font-family: Georgia, serif;
+	font-size: 60px;
+	left: 0;
+	line-height: 1;
+	position: absolute;
+	top: 0;
+}
+
+/*  responsiveness */
+
+@media (max-width: 992px) {
+	.col3 {
+		flex: 0 0 29%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col3 {
+		flex: 0 0 90%;
+	}
+}

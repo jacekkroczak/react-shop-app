@@ -1,0 +1,74 @@
+.label {
+	color: #134213;
+	font-weight: 500;
+	width: 250px;
+}
+
+.input,
+.select {
+	background: #fff;
+	border-radius: 25px;
+	border: 2px solid #13421399;
+	display: block;
+	height: 35px;
+	letter-spacing: 1px;
+	margin: 10px 0 20px 0;
+	padding-left: 15px;
+}
+
+.input {
+	width: 250px;
+}
+
+.select {
+	width: 272px;
+}
+
+.checkbox {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+
+.filtersContent {
+	position: fixed;
+}
+
+/*  responsiveness */
+
+@media (max-width: 1355px) {
+	.filtersContent {
+		position: relative;
+	}
+
+	.input {
+		width: 170px;
+	}
+
+	.select {
+		width: 192px;
+	}
+}
+
+@media (max-width: 992px) {
+	.input {
+		width: 150px;
+	}
+
+	.select {
+		width: 172px;
+	}
+
+	.label {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.input {
+		width: 250px;
+	}
+
+	.select {
+		width: 272px;
+	}
+}

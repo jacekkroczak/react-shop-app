@@ -1,0 +1,30 @@
+.accordionContent {
+	border-bottom: 3px solid #80808038;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.accordionContent:last-child {
+	border-bottom: none;
+}
+
+.h4 {
+	color: #134213;
+	cursor: pointer;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	margin: 0;
+	width: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.paragraph {
+	color: #808080e3;
+	margin-bottom: 0;
+}

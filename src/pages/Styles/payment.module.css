@@ -1,0 +1,56 @@
+.paymentBackground {
+	background: url('../../assets/payment.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin-top: -23px;
+	min-height: 100vh;
+}
+
+.container {
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.header {
+	color: #fff;
+	font-size: 60px;
+	margin: 0;
+}
+
+.button {
+	background: transparent;
+	border-radius: 25px;
+	border: 3px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	padding: 15px 40px;
+	transition: 0.2s;
+}
+
+.button:hover {
+	background: #134213;
+	border-color: #134213;
+}
+
+/*  responsiveness */
+
+@media (max-width: 767px) {
+	.header {
+		font-size: 35px;
+		padding: 0 15px;
+	}
+
+	.button {
+		font-size: 13px;
+		padding: 15px 15px;
+	}
+}

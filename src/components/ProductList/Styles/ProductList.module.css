@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.categoryName {
+	color: #134213;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+/*  responsiveness */
+
+@media (max-width: 767px) {
+	.categoryName {
+		margin: 20px 0 0 0;
+	}
+}

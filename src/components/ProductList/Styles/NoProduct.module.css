@@ -1,0 +1,18 @@
+.noProduct {
+	background-image: url('../../../assets/noProduct.png');
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.noProductParagraph {
+	color: #134213;
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}

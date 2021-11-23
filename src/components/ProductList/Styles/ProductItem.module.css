@@ -1,0 +1,100 @@
+.col4 {
+	flex: 0 0 30%;
+	padding: 15px;
+}
+
+.imgItem {
+	max-width: 100%;
+}
+
+.notStocked .header,
+.notStocked .imgItem {
+	opacity: 0.4;
+}
+
+.notStocked .header {
+	text-decoration: line-through;
+}
+
+.notStocked button {
+	margin-top: 10px;
+}
+
+.productPageButton {
+	background: transparent;
+	border-radius: 25px;
+	border: 2px solid #134213;
+	color: #134213;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	padding: 8px 25px;
+	transition: 0.2s;
+}
+
+.productAskButton {
+	background: #134213;
+	border-radius: 25px;
+	border: 2px solid #134213;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	opacity: 0.4;
+	padding: 8px 25px;
+	transition: 0.2s;
+}
+
+.productPageButton:hover {
+	background: #134213;
+	color: #fff;
+}
+
+.likedButton {
+	color: red;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.notLikedButton {
+	color: grey;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.buttonContent {
+	align-items: baseline;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+.loveIt {
+	cursor: pointer;
+	padding-right: 15px;
+}
+
+/*  responsiveness */
+
+@media (max-width: 1355px) {
+	.col4 {
+		flex: 0 0 44%;
+	}
+}
+
+@media (max-width: 992px) {
+	.productAskButton,
+	.productPageButton {
+		font-size: 12px;
+		padding: 6px 12px;
+	}
+}
+
+@media (max-width: 767px) {
+	.col4 {
+		flex: 0 0 100%;
+		padding: 0;
+	}
+}

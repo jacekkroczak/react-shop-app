@@ -1,0 +1,98 @@
+.section {
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #134213;
+	box-shadow: 0px 0px 10px 0.5px rgb(19 66 19);
+	margin-bottom: 60px;
+	margin: 0 auto;
+	margin-top: 60px;
+	max-width: 350px;
+	padding: 30px;
+	width: 100%;
+}
+
+.header {
+	color: #134213;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	word-break: break-word;
+}
+
+.description {
+	color: #808080d1;
+	font-style: italic;
+	padding-bottom: 10px;
+	word-break: break-word;
+}
+
+.author {
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	word-break: break-word;
+}
+
+.sectionButtons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.editButton {
+	background: #134213;
+	border-radius: 25px;
+	border: 2px solid #134213;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 5px 25px;
+	transition: 0.2s;
+}
+
+.removeButton {
+	background: #e14e4e;
+	border-radius: 25px;
+	border: 2px solid #e14e4e;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 5px 20px;
+	transition: 0.2s;
+}
+
+.editButton:hover {
+	background: #fff;
+	color: #134213;
+}
+
+.removeButton:hover {
+	background: #fff;
+	color: #e14e4e;
+}
+
+.noPost {
+	font-size: 25px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+/*  responsiveness */
+
+@media (max-width: 767px) {
+	.section {
+		max-width: 250px;
+	}
+
+	.section:last-child {
+		margin-bottom: 0;
+	}
+
+	.editButton,
+	.removeButton {
+		font-size: 12px;
+	}
+}
