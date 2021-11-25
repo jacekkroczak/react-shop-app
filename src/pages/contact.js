@@ -45,7 +45,7 @@ class Contact extends React.Component {
 					'Surname: ' +
 					this.state.surname +
 					' ' +
-					'Home adress: ' +
+					'Address: ' +
 					this.state.adress +
 					' ' +
 					'Phone number: ' +
@@ -117,7 +117,7 @@ class Contact extends React.Component {
 								className={styles.input}
 								name="adress"
 								onChange={this.handleChange}
-								placeholder="Home adress..."
+								placeholder="Address..."
 								type="text"
 								value={this.state.adress}
 							/>

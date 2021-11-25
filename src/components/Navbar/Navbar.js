@@ -35,7 +35,9 @@ const Navbar = () => {
 		<>
 			<nav className={styles.nav}>
 				<div className={styles.logo}>
-					<img alt="logo" src={logoWhite} />
+					<NavLink to="/">
+						<img alt="logo" src={logoWhite} />
+					</NavLink>
 				</div>
 				<div className={styles.menu}>
 					<NavLink
@@ -126,7 +128,9 @@ const Navbar = () => {
 			<nav className={styles.navSecond}>
 				<div className={styles.mobileFirstContent}>
 					<div className={styles.logo}>
-						<img alt="logo" src={logoWhite} />
+						<NavLink to="/">
+							<img alt="logo" src={logoWhite} />
+						</NavLink>
 					</div>
 					<FontAwesomeIcon
 						className={styles.favorites}

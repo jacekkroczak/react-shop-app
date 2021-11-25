@@ -57,7 +57,7 @@ class AddBlogItem extends React.Component {
 							className={styles.input}
 							name="title"
 							onChange={this.handleChange}
-							placeholder="Post title..."
+							placeholder="Title..."
 							type="text"
 							value={this.state.title}
 						/>

@@ -102,7 +102,7 @@ class Popup extends React.Component {
 									className={styles.input}
 									name="name"
 									onChange={this.handleChange}
-									placeholder="Name and surname..."
+									placeholder="Name..."
 									type="text"
 									value={this.state.name}
 								/>
