@@ -20,11 +20,13 @@ const ProductItem = (props) => {
 	const [favorite, setFavorite] = useContext(FavoriteContext);
 
 	useEffect(() => {
-		setLike(false);
 		favorite.filter((elem) =>
-			elem.name === props.item.name ? setLike(true) : ''
+			elem.name === props.item.name ? setLike(true) : null
 		);
-	}, [favorite, props.item]);
+		return () => {
+			setLike(false);
+		};
+	});
 
 	const addFavorite = () => {
 		const value = { id: props.item.id, name: props.item.name };

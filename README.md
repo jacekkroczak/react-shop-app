@@ -31,7 +31,7 @@ The application was designed using various react elements. My main goal was to l
 
 ### Installation
 
-A step by step how to install and run React Shop App.
+A step-by-step how to install and run React Shop App.
 
 ```
 $ npm install
